@@ -1,5 +1,5 @@
 function checkForSpam(message) {
     const normMessage = message.toLowerCase();
 
-    return normMessage.incelubes("spam") || normMessage.incelubes("sale");
+    return normMessage.includes("spam") || normMessage.includes("sale");
 }
